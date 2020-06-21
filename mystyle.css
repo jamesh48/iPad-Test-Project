@@ -1,0 +1,133 @@
+body {
+  background-color: white;
+  height: 900px;
+}
+
+#profilesection{
+  height: 100%;
+  border: 1px dashed yellow;
+  position: relative;
+  top: 5%;
+}
+
+.section{
+  border: 3px dashed black;
+  border-radius: 15px;
+  background-color: lightgray;
+  position: relative;
+  width: 60%;
+  margin: 0 auto;
+}
+
+#photographsection {
+  height: 40%;
+  border-top: none;
+}
+
+.intro{
+  text-decoration: underline;
+  width: 75%;
+  font-weight: 400;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#intro1 {
+  color: lightblue;
+}
+
+#intro2 {
+  color: pink;
+}
+
+#intro3 {
+  color: lightgreen;
+}
+
+#intro4 {
+  color: violet;
+}
+
+#intro5 {
+  color: orange;
+}
+
+.title{
+  position: relative;
+  width: 40%;
+  font-size: 20px;
+  border: 1px white solid;
+  align-content: center;
+  border-radius: 20px;
+  text-align: center;
+  margin: 1% auto;
+  
+}
+
+#title1 {
+  color: blue;
+  background-color: lightblue;
+}
+
+#title2 {
+  color: red;
+  background-color: pink;
+}
+
+#title3 {
+  color: green;
+  background-color: lightgreen;
+}
+
+#title4 {
+  color: purple;
+  background-color: violet;
+}
+
+#title5 {
+  color: brown;
+  background-color: orange;
+}
+
+
+/*Buttons*/
+#grid-button-container{
+     display: inline-grid;
+     grid-template-columns: 20% 20% 20% 20% 20%;
+     margin: 1% 1% 0% 1%;
+}
+
+button {
+  color: white;
+  background-color: teal;
+  font-size: 16px;
+  border-radius:20px;
+  border: 2px black solid;
+}
+
+.namediv {
+  display: none;
+  position: relative;
+}
+
+
+
+#pictureframe{
+  height: 100%;
+}
+
+#georgeimg{
+ left: 30%;
+}
+
+.personimg {
+  display: none;
+  position: relative;
+  left: 20%;
+  height: 100%;
+  width: auto;
+}
+
+.test{
+  top
+}
