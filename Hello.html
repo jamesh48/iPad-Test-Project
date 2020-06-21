@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+
+<script type = "text/javascript">
+    
+
+		function changeProfile(){
+		
+  			if(event.target.id === "button2"){
+            document.getElementById("julianimg").style.display = "none";
+            document.getElementById("julian").style.display = "none";
+
+				document.getElementById("james").style.display = "none";
+			   document.getElementById("jamesimg").style.display = "none";
+			
+			   document.getElementById("williamimg").style.display = "none";
+				document.getElementById("william").style.display= "none";
+				
+				document.getElementById("george").style.display = "none";
+				document.getElementById("georgeimg").style.display = "none";
+				
+				document.getElementById("sara").style.display = "inline";
+				document.getElementById("saraimg").style.display = "inline";
+				
+		      document.getElementById("introductionsection").style.background = "red";
+						}
+			else if(event.target.id === "button3"){
+			   document.getElementById("james").style.display = "none";
+			   document.getElementById("jamesimg").style.display = "none";
+			
+			   document.getElementById("saraimg").style.display = "none";
+			   document.getElementById("sara").style.display= "none";
+			
+			   document.getElementById("george").style.display = "none";
+			   document.getElementById("georgeimg").style.display = "none";
+			
+			   document.getElementById("julianimg").style.display = "inline";
+			   document.getElementById("julian").style.display= "inline";
+			
+			   document.getElementById("williamimg").style.display = "none";
+			   document.getElementById("william").style.display= "none";
+			
+			   document.getElementById("introductionsection").style.background = "green"; 
+			}
+			else if(event.target.id === "button1"){
+			   document.getElementById("jamesimg").style.display = "inline";
+			   document.getElementById("james").style.display = "inline";
+			
+			   document.getElementById("saraimg").style.display = "none";
+			   document.getElementById("sara").style.display= "none";
+			
+			   document.getElementById("julianimg").style.display = "none";
+			   document.getElementById("julian").style.display= "none";
+			
+			   document.getElementById("williamimg").style.display = "none";
+			   document.getElementById("william").style.display= "none";
+			
+			   document.getElementById("george").style.display = "none";
+			   document.getElementById("georgeimg").style.display = "none";
+			
+			   document.getElementById("grid-button-container").classList.add("test")
+			
+			   document.getElementById("introductionsection").style.background = "blue"; 
+			}
+			else if(event.target.id === "button4"){
+			   document.getElementById("james").style.display = "none";
+			   document.getElementById("jamesimg").style.display = "none";
+			
+			   document.getElementById("saraimg").style.display = "none";
+			   document.getElementById("sara").style.display= "none";
+			   
+			   document.getElementById("julianimg").style.display = "none";
+			   document.getElementById("julian").style.display= "none";
+			
+			   document.getElementById("george").style.display = "none";
+			   document.getElementById("georgeimg").style.display = "none";
+			   
+			   document.getElementById("williamimg").style.display = "inline";
+			   document.getElementById("william").style.display= "inline";
+			
+			   document.getElementById("introductionsection").style.background = "purple"; 
+			   
+			}
+			else if(event.target.id === "button5"){
+			   document.getElementById("james").style.display = "none";
+			   document.getElementById("jamesimg").style.display = "none";
+			
+			   document.getElementById("sara").style.display= "none";
+			   document.getElementById("saraimg").style.display = "none";
+			
+			   document.getElementById("julianimg").style.display = "none";
+			   document.getElementById("julian").style.display= "none";
+			
+			   document.getElementById("william").style.display= "none";
+			   document.getElementById("williamimg").style.display = "none";
+			
+			   document.getElementById("george").style.display = "inline";
+			   document.getElementById("georgeimg").style.display = "inline";
+			
+			   document.getElementById("introductionsection").style.background = "brown"; 
+			}
+       }
+</script>
+
+  </head>
+
+  <body>
+   <div id = "profilesection">
+	<div class = "section" id = "introductionsection">
+		<div class = "namediv" id = "james">
+		  <h1 id = "intro1" class ="intro">Let me Introduce you to...</h1>
+      	  <p id = "title1" class = "title">James</p>
+    		<h1 id = "intro1" class = "intro">His Favorite Color is...</h1>
+     	     <p id = "title1" class = "title">Blue</p1>
+    		<h1 id = "intro1" class = "intro">He enjoys...</h1>
+     			 <p id = "title1" class = "title">Swimming</p1>
+		</div>
+
+      <div class = "namediv" id = "sara">
+    		<h1 id = "intro2" class ="intro">Let me Introduce you to...</h1>
+      	   <p id = "title2" class = "title">Sara</p>
+   		 <h1 id = "intro2" class = "intro">Her Favorite Color is...</h1>
+      		<p id = "title2" class = "title">Red</p1>
+    		<h1 id = "intro2" class = "intro">She enjoys...</h1>
+     			 <p id = "title2" class = "title">Burlesque</p1>
+      </div>
+
+		<div class = "namediv" id = "julian">
+		   <h1 id = "intro3" class = "intro">Let me Introduce you to...</h1>
+		       <p id = "title3" class = "title">Julian</p>
+    		<h1 id = "intro3" class = "intro">His Favorite Color is...</h1>
+     			 <p id = "title3" class = "title">Green</p1>
+    		<h1 id = "intro3" class = "intro">He enjoys...</h1>
+     			 <p id = "title3" class = "title">Whiskey</p1>
+		</div> 
+		
+		<div class = "namediv" id = "william">
+		   <h1 id = "intro4" class = "intro">Let me Introduce you to...</h1>
+		       <p id = "title4" class = "title">William</p>
+    		<h1 id = "intro4" class = "intro">His Favorite Color is...</h1>
+     			 <p id = "title4" class = "title">Purple</p1>
+    		<h1 id = "intro4" class = "intro">He enjoys...</h1>
+     			 <p id = "title4" class = "title">Eating & Sleeping</p1>
+		</div> 
+
+		<div class = "namediv" id = "george">
+		   <h1 id = "intro5" class = "intro">Let me Introduce you to...</h1>
+		       <p id = "title5" class = "title">George</p>
+    		<h1 id = "intro5" class = "intro">His Favorite Color is...</h1>
+     			 <p id = "title5" class = "title">Orange</p1>
+    		<h1 id = "intro5" class = "intro">He enjoys...</h1>
+     			 <p id = "title5" class = "title">Audio Equipment</p1>
+		</div> 
+		
+		<div id = "grid-button-container">
+			<button id = "button1" onClick= "changeProfile()">Tell me about James</button>
+			<button id = "button2" onClick= "changeProfile()">Tell me about Sara</button>
+			<button id = "button3" onClick= "changeProfile()">Tell me about Julian</button>
+			<button id = "button4" onClick= "changeProfile()">Tell me about William</button>
+			<button id = "button5" onClick= "changeProfile()">Tell me about George</button>
+	   </div>
+	</div>
+	
+	<div class = "section" id = "photographsection">
+	  <div id = "pictureframe">
+	    <img class = "personimg" id = "saraimg" src = "saraimg.jpg"/>
+	    <img class = "personimg" id = "julianimg" src = "julianimg.jpg"/>
+	    <img class = "personimg" id = "williamimg" src = "williamimg.jpg"/>
+	    <img class = "personimg" id = "jamesimg" src = "jamesimg.jpg"/>
+	    <img class = "personimg" id = "georgeimg" src = "georgeimg.jpg"/>
+	  </div>
+	</div>
+	
+	</div>
+  </body>
+</html>
